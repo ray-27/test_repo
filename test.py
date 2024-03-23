@@ -10,5 +10,7 @@ import torch
 from drive import upload
 
 
+def tr():
+    print("from a function in test")
 
 print("yeah this is test")
