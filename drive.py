@@ -23,6 +23,4 @@ def upload(file,filename="model"):
     pass
 
 
-def onl():
-    print("printing from the drive py script")
 
