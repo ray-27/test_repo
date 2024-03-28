@@ -1,4 +1,3 @@
-import torch
 
 # if torch.cuda.is_available():
 #     DEVICE = "cuda"
@@ -7,8 +6,11 @@ import torch
 # else: DEVICE = "cpu"
 # print(f'device model is running on : {DEVICE}')
 
-from drive import upload
+import test_repo.fun as f
 
+def train(a):
 
+    print("yeah this is test")
+    f.pri(a)
 
-print("yeah this is test")
+train(5)

@@ -24,3 +24,5 @@ def upload(file,filename="model"):
 
 
 
+def pr_up(a):
+    print(f"this is from the upload folder {a}")
